@@ -32,7 +32,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score, roc_curve
 
 📂 Step 2: Load Dataset
-
+NOTE: DATA SET SIZE IS TOO LARGE SO YOU CAN DOWNLOAD IT FROM BELOW LINK
+LINK: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 We load the dataset (creditcard.csv) and check its shape & first few rows.
 
 df = pd.read_csv("creditcard.csv")
